@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Zia Holmes</title>
+  <meta name="description" content="Get in touch with Zia Holmes.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="page">
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <a href="index.html" class="brand">
+      <div class="brand-mark">[MARK]</div>
+      <span class="brand-name">Zia Holmes</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="btn btn-dark btn-sm" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HEADLINE ===== -->
+    <section class="section-tight stack">
+      <p class="eyebrow">Contact</p>
+      <h1 class="display-xl">Let’s make <em class="accent">something</em><br>together.</h1>
+      <p class="lead">[One friendly line on what you’d love to hear about — internships, freelance, collabs, or just saying hi.]</p>
+    </section>
+
+    <!-- ===== DETAILS + FORM ===== -->
+    <section class="section-tight grid-12">
+      <div class="stack-lg" style="grid-column: span 5;">
+        <div class="stack" style="gap: 10px;">
+          <span class="label">Email (fastest)</span>
+          <a href="mailto:you@example.com" class="contact-email">[you@yourdomain.com]</a>
+        </div>
+
+        <div class="detail-grid">
+          <div class="detail"><span class="label">Based in</span><span>Seattle, WA · Pacific time</span></div>
+          <div class="detail"><span class="label">Availability</span><span class="status">[Open from Month / Booked until…]</span></div>
+          <div class="detail"><span class="label">Looking for</span><span>[Role type / project type]</span></div>
+          <div class="detail"><span class="label">I’ll reply</span><span>[Within 2 days, usually]</span></div>
+        </div>
+
+        <div class="stack" style="gap: 14px;">
+          <span class="label">Elsewhere</span>
+          <div class="button-row">
+            <a href="#" class="btn btn-outline btn-sm">[LinkedIn]</a>
+            <a href="#" class="btn btn-outline btn-sm">[Instagram / Behance]</a>
+            <a href="files/resume.pdf" class="btn btn-dark btn-sm">Résumé (PDF) ↓</a>
+          </div>
+        </div>
+      </div>
+
+      <!--
+        To make this form actually send email, sign up at formspree.io (free),
+        then set action="https://formspree.io/f/YOUR_ID" below.
+      -->
+      <form class="contact-form" action="#" method="POST" style="grid-column: 7 / span 6;">
+        <p class="form-title">Or drop a note here</p>
+        <div class="grid-2" style="gap: 20px;">
+          <label class="field">Your name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label class="field">Email
+            <input type="email" name="email" placeholder="you@email.com" required>
+          </label>
+        </div>
+        <label class="field">What’s this about?
+          <select name="topic">
+            <option>An internship or job</option>
+            <option>A freelance project</option>
+            <option>A collab</option>
+            <option>Just saying hi</option>
+          </select>
+        </label>
+        <label class="field">Message
+          <textarea name="message" rows="6" placeholder="Tell me what you’re dreaming up…" required></textarea>
+        </label>
+        <button type="submit" class="btn btn-green" style="align-self: flex-start;">Send it →</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- ===== CLOSING + FOOTER ===== -->
+  <section class="cta-band dark">
+    <div class="cta-row" style="align-items: center;">
+      <p class="closing-line">[A warm last line — a P.S., a local recommendation, or what you’re listening to right now.]</p>
+      <div class="sticker sticker-tan">[YOUR STICKER]</div>
+    </div>
+    <footer class="site-footer">
+      <span>Made by Zia Holmes in Seattle · 2026</span>
+      <a href="index.html">Back to home ↑</a>
+    </footer>
+  </section>
+
+</div>
+</body>
+</html>
